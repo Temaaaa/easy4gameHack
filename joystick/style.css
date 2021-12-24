@@ -1,0 +1,54 @@
+
+.btn-step {
+    border: none;
+
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+.step-front {
+    background-image: url("image/arrowhead-up.png");
+}
+.step-back {
+    background-image: url("image/arrowhead-up.png");
+    transform: rotate(180deg);
+}
+.step-left {
+    background-image: url("image/back.png");
+
+}
+.step-right {
+    background-image: url("image/back.png");
+    transform: rotate(180deg);
+}
+
+.btn-action {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.attack {
+    background-image: url("image/battle.png");
+    background-color: rgba(255, 0, 0, 0.4);
+}
+.attack:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.defense {
+    background-image: url("image/security.png");
+    background-color: rgba(0, 0, 255, 0.4);
+}
+.defense:hover {
+    background-color: rgba(0, 0, 255, 0.6);
+}
+.row-one {
+    margin-left: 105px;
+}
+
+/*input[value] {color: transparent}*/
+input[value] { color: transparent}
